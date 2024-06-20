@@ -13,8 +13,6 @@ Phone must be 10 digit. -->
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT website (#PCDATA)>
 
-<!ENTITY % phone "(\d{10})">
-
 ]>
 <Students>
    <Student>
