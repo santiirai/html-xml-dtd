@@ -1,0 +1,82 @@
+<!-- Create a DTD
+Choose a domain of interest (e.g. e-shop, library, recipes) and determine its basic elements
+(e.g. a library has books, employees, etc.) as well as their respective attributes (e.g. a book
+has a title, a list of authors, etc.). 
+Include in your model at least 3 but no more than 7 elements.
+There is no limit in the number of attributes, but avoid exhaustive descriptions -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recipe [
+<!ELEMENT recipe (title, author, servings, cuisine, ingredients, steps)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT servings (#PCDATA)>
+<!ELEMENT cuisine (#PCDATA)>
+<!ELEMENT ingredients (ingredient+)>
+<!ELEMENT ingredient (name, quantity, unit)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT unit (#PCDATA)>
+<!ELEMENT steps (step+)>
+<!ELEMENT step (number, description)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+]>
+<recipe>
+    <title>Strawberry Iced Tea</title>
+    <author>Jana Rai</author>
+    <servings>4</servings>
+    <cuisine>Italian</cuisine>
+    <ingredients>
+        <ingredient>
+            <name>Water</name>
+            <quantity>2</quantity>
+            <unit>cups</unit>
+        </ingredient>
+        <ingredient>
+            <name>Black Tea</name>
+            <quantity>4</quantity>
+            <unit>bags</unit>
+        </ingredient>
+        <ingredient>
+            <name>Fresh Strawberry</name>
+            <quantity>1</quantity>
+            <unit>container</unit>
+        </ingredient>
+        <ingredient>
+            <name>Sugar</name>
+            <quantity>1</quantity>
+            <unit>cup</unit>
+        </ingredient>
+        <ingredient>
+            <name>Strawberry Syrup</name>
+            <quantity>1</quantity>
+            <unit>tablespoon</unit>
+        </ingredient>
+        <ingredient>
+            <name>Lemon Juice</name>
+            <quantity>1</quantity>
+            <unit>tablespoon</unit>
+        </ingredient>
+        <ingredient>
+            <name>Cold Water</name>
+            <quantity>2</quantity>
+            <unit>cups</unit>
+        </ingredient>
+    </ingredients>
+        <steps>
+            <step>
+                <number>1</number>
+                <description>Bring water to a boil in a saucepan. Remove from heat and add tea bags. Let steep for 1 hour; remove tea bags.</description>
+            </step>
+            <step>
+                <number>2</number>
+                <description>Place strawberries in a large bowl and sprinkle with sugar. Let stand 10 minutes; stir. Stir in strawberry syrup and lemon juice. Mash strawberries to desired consistency.</description>
+            </step>
+            <step>
+                <number>3</number>
+                <description>Pour strawberry mixture, tea, and 2 cups cold water into a pitcher. Stir well. Chill until ready to use.
+
+                </description>
+            </step>
+        </steps>
+</recipe>
