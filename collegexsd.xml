@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="college.xsd">
+  <student>
+    <name>Sita</name>
+    <address>Itahari</address>
+    <phone>9864651345</phone>
+  </student>
+  <student>
+    <name>Reeta</name>
+    <address>Dharan</address>
+    <phone>9800674363</phone>
+  </student>
+  <subject>
+    <BCA>Bachelor in Computer Applications</BCA>
+    <BIT>Bachelor in Information Technology</BIT>
+    <MIT>Management Information Technology</MIT>
+  </subject>
+</college>
