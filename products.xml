@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="products.xsl"?>
+<products>
+
+    <product>
+        <productname>Noodles</productname>
+        <category>Food</category>
+        <price>550</price>
+        <quantity>5</quantity>
+    </product>
+
+    <product>
+        <productname>PC</productname>
+        <category>Electronics</category>
+        <price>79000</price>
+        <quantity>3</quantity>
+    </product>
+
+    <product>
+        <productname>Pen</productname>
+        <category>Stationery</category>
+        <price>40</price>
+        <quantity>20</quantity>
+    </product>
+
+    <product>
+        <productname>Scale</productname>
+        <category>Stationery</category>
+        <price>50</price>
+        <quantity>10</quantity>
+    </product>
+
+    <product>
+        <productname>Mobile</productname>
+        <category>Electronics</category>
+        <price>95000</price>
+        <quantity>6</quantity>
+    </product>
+</products>
